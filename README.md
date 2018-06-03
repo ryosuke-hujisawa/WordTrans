@@ -7,8 +7,14 @@ http://wordtranslate.info/
 
 ## Demo
 
-![Top](http://wordtranslate.info/DemoImage/top.jpg "top")
+### You can Select the supported language.
 
-![try](http://wordtranslate.info/DemoImage/try.jpg "try")
+![Top](http://wordtranslate.info/DemoImage/top.jpg =400x300 "top")
 
-![Result](http://wordtranslate.info/DemoImage/result.jpg "result")
+### Enter a sentence.
+
+![try](http://wordtranslate.info/DemoImage/try.jpg =400x300 "try")
+
+### The result is output. Audio correspondence is also done.
+
+![Result](http://wordtranslate.info/DemoImage/result.jpg =400x300 "result")
