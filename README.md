@@ -9,12 +9,12 @@ http://wordtranslate.info/
 
 ### You can Select the supported language.
 
-<img src="http://wordtranslate.info/DemoImage/top.jpg" width="200" height="200" />
+<img src="http://wordtranslate.info/DemoImage/top.jpg" width="600" height="400" />
 
 ### Enter a sentence.
 
-![try](http://wordtranslate.info/DemoImage/try.jpg =400x300 "try")
+<img src="http://wordtranslate.info/DemoImage/try.jpg" width="600" height="400" />
 
 ### The result is output. Audio correspondence is also done.
 
-![Result](http://wordtranslate.info/DemoImage/result.jpg =400x300 "result")
+<img src="http://wordtranslate.info/DemoImage/result.jpg" width="600" height="400" />
