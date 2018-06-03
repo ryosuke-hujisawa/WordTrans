@@ -1,7 +1,7 @@
 WordTransProject
 ====
 
-made using python. Break down sentences into words, Then translate the words. called word translation.
+made using python and php. Break down sentences into words, Then translate the words. called word translation.
 
 http://wordtranslate.info/
 
