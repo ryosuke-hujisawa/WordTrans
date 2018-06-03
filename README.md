@@ -7,8 +7,8 @@ http://wordtranslate.info/
 
 ## Demo
 
-![Top](https://ryosuke-hujisawa.github.io/img/toppage.jpg "toppage_image")
+![Top](https://github.com/ryosuke-hujisawa/WordTransProject/tree/master/for_github_img/top.jpg "top")
 
-![try](https://ryosuke-hujisawa.github.io/img/toppage.jpg "toppage_image")
+![try](https://github.com/ryosuke-hujisawa/WordTransProject/tree/master/for_github_img/try.jpg "try")
 
-![Result](https://ryosuke-hujisawa.github.io/img/toppage.jpg "toppage_image")
+![Result](https://github.com/ryosuke-hujisawa/WordTransProject/tree/master/for_github_img/result.jpg "result")
