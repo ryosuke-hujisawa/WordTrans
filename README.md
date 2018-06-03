@@ -9,7 +9,7 @@ http://wordtranslate.info/
 
 ### You can Select the supported language.
 
-![Top](http://wordtranslate.info/DemoImage/top.jpg =400x300 "top")
+<img src="http://wordtranslate.info/DemoImage/top.jpg" width="200" height="200" />
 
 ### Enter a sentence.
 
