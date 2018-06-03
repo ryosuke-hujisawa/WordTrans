@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+
+        <head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# article: http://ogp.me/ns/article#">
+
+        <meta property="og:title" content="単語翻訳！" />
+
+        <meta property="og:url" content="http://wordtranslate.info/WordTrans/word_trans.html" />
+
+        <meta property="og:image" content="http://wordtranslate.info/WordTrans/img_test/thumbnail.png" />
+
+        <meta property="og:description" content="文章から単語へ自動で単語翻訳、全く新しい翻訳サービスの形" />    
+
+        <meta property="og:type" content="website" />
+
+        <meta property="og:site_name" content="単語翻訳" />
+
+
+
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta name="description" content="">
+        <meta name="author" content="">
+
+        <title>単語翻訳</title>
+        <link rel="shortcut icon" href="favicon.ico" type="https://off.tokyo/wp-content/uploads/2018/05/Translate2.png">
+
+
+        <link rel="shortcut icon" type="image/x-icon" href="http://wordtranslate.info/WordTrans/img_test/favicon.ico">
+        <link href="../vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Catamaran:100,200,300,400,500,600,700,800,900" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i" rel="stylesheet">
+        <link href="../css/one-page-wonder.min.css" rel="stylesheet">
+
+        </head>
+
+  <body>
+
+
+    <header class="masthead text-center text-white">
+
+      <div class="masthead-content">
+        <div class="container">
+          <h1 class="masthead-heading mb-0">単語翻訳へようこそ！</h1>
+          <h5 class="masthead-subheading mb-0">文章から単語へ自動で単語翻訳</h5>
+          <a href="./word_trans.html" class="btn btn-primary btn-xl rounded-pill mt-5">日本語</a>
+          <a href="./word_trans_en.html" class="btn btn-primary btn-xl rounded-pill mt-5">English</a>
+          <a href="./word_trans_sweden.html" class="btn btn-primary btn-xl rounded-pill mt-5">Svenska</a>
+          <a href="./word_trans_korean.html" class="btn btn-primary btn-xl rounded-pill mt-5">한국</a>
+          <a href="./word_trans_german.html" class="btn btn-primary btn-xl rounded-pill mt-5">Deutsch</a>
+        </div>
+      </div>
+
+      <div class="bg-circle-1 bg-circle"></div>
+      <div class="bg-circle-2 bg-circle"></div>
+      <div class="bg-circle-3 bg-circle"></div>
+      <div class="bg-circle-4 bg-circle"></div>
+    </header>
+
+    <section>
+      <div class="container">
+        <div class="row align-items-center">
+
+          <div class="col-lg-6 order-lg-2">
+            <div class="p-5">
+              <img class="img-fluid rounded-circle" src="../img_test/Translate2.png" alt="">
+            </div>
+          </div>
+
+          <div class="col-lg-6 order-lg-1">
+            <div class="p-5">
+              <h3 class="display-4">単語翻訳する！</h3>
+              <p></p>
+
+
+
+
+                  <form action = "./../php/translation.php" method = "post">
+
+
+                  <input type="hidden" name="Ja_lang_hide" value="Ja_lang_hide">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                      <div class="form-group">
+                          <label for="exampleFormControlSelect1"></label>
+
+                          <select name="to" class="form-control" id="exampleFormControlSelect1">
+                            <option>英語</option>
+                            <option>日本語</option>
+                            <option>韓国語</option>
+                          </select>
+
+                        </div>
+
+                        <div class="form-group">
+                          <textarea class="form-control" id="exampleFormControlTextarea1" rows="10" name ="comment"></textarea>
+                        </div>
+
+                        <button type="submit" class="btn btn-primary">翻訳する!</button>
+                  </form>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="py-5 bg-black">
+      <div class="container">
+        <p class="m-0 text-center text-white small">Copyright &copy; Ryosuke Hujisawa</p>
+      </div>
+    </footer>
+
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+  </body>
+
+</html>
